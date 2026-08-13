@@ -62,7 +62,7 @@ Episode 1:
 ## Project Documentation
 
 - [Architecture](docs/architecture.md)
-- [Engineering Principles](docs/engineering-principles.md)
+- [Engineering](docs/engineering.md)
 - [Roadmap](ROADMAP.md)
 
 ## License
