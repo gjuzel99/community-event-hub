@@ -1,23 +1,33 @@
 # Community Event Hub
 
-Community Event Hub is an open-source Power Platform project for exploring
-how to build maintainable and scalable event-management solutions with
-Microsoft Dataverse and Power Platform.
+Community Event Hub is an open-source Power Platform project for exploring how to build maintainable and scalable event-management solutions with Microsoft Dataverse and Power Platform.
 
-The project will be built publicly through a series of live streams.
+The project is being built publicly through a series of live streams.
 
 ## Current Status
 
-🚧 Project foundation
+🚧 Dataverse foundation
 
-The first live episode will focus on def ining:
+Episode 1 established the initial project foundation:
 
 - project scope and non-goals;
 - initial architecture;
-- engineering principles;
-- the first project roadmap.
+- engineering guidelines;
+- project roadmap.
 
-No Dataverse implementation has been created yet.
+Episode 2 will move into Dataverse and start building the first real project foundation.
+
+The focus will be on:
+
+- creating the Community Event Hub solution and publisher;
+- defining the initial solution and repository structure;
+- understanding standard Dataverse tables before creating custom ones;
+- reusing Account and Contact where they fit the domain;
+- using Activities such as Appointments, Emails, Tasks and Phone Calls;
+- using Connections and Connection Roles for flexible relationships;
+- deciding when a Choice is enough and when a custom table is needed;
+- creating the initial Event and Session tables;
+- documenting the first Community Event Hub data model.
 
 ## First Episodes
 
@@ -26,6 +36,7 @@ No Dataverse implementation has been created yet.
 3. Plugin, JavaScript or Power Automate? Designing the business logic architecture
 
 More episodes will follow as Community Event Hub grows.
+
 ## Scope
 
 Community Event Hub will explore event-management scenarios such as:
@@ -49,20 +60,27 @@ The initial project will not:
 - become a complex multi-tenant SaaS platform;
 - introduce custom code when standard Power Platform capabilities are enough.
 
-
-
 ## Live Series
 
-Episode 1:
+### Episode 1
+
 **How to Start a Maintainable Power Platform Project | Community Event Hub #1**
 
 📅 13 August 2026  
-🔴 YouTube: https://youtube.com/live/1Hh4_qY7PuM?feature=share
+🔴 YouTube: https://youtube.com/live/1Hh4_qY7PuM
+
+### Episode 2
+
+**Designing a Maintainable Dataverse Foundation | Community Event Hub #2**
+
+📅 20 August 2026  
+🔴 YouTube: https://www.youtube.com/live/H071iJ2TZLs
 
 ## Project Documentation
 
 - [Architecture](docs/architecture.md)
 - [Engineering](docs/engineering.md)
+- [Data Model](docs/data-model.md)
 - [Roadmap](ROADMAP.md)
 
 ## License

@@ -298,7 +298,7 @@ Is it mainly user-interface behaviour?
          ↓
 Must it run synchronously or be enforced server-side?
     ├─ Yes → C# Plugin / Custom API
-    └─ No → Power Automate
+    └─ No → Power Automate / Async Plugin
 ```
 
 This is a guideline, not a strict rule.
