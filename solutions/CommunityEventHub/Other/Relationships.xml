@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ceh_event" />
+  <EntityRelationship Name="business_unit_ceh_session" />
+  <EntityRelationship Name="ceh_session_EventId_ceh_event" />
+  <EntityRelationship Name="lk_ceh_event_createdby" />
+  <EntityRelationship Name="lk_ceh_event_modifiedby" />
+  <EntityRelationship Name="lk_ceh_session_createdby" />
+  <EntityRelationship Name="lk_ceh_session_modifiedby" />
+  <EntityRelationship Name="owner_ceh_event" />
+  <EntityRelationship Name="owner_ceh_session" />
+  <EntityRelationship Name="team_ceh_event" />
+  <EntityRelationship Name="team_ceh_session" />
+  <EntityRelationship Name="user_ceh_event" />
+  <EntityRelationship Name="user_ceh_session" />
+</EntityRelationships>

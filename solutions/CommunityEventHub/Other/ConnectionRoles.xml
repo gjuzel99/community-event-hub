@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConnectionRoles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionRoles>
+    <ConnectionRole>
+      <connectionroleid>{3c40221c-d39c-f111-b8dd-70a8a57f0bb9}</connectionroleid>
+      <name>Sponsor</name>
+      <category>765980001</category>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <ConnectionRoleObjectTypeCodes>
+        <ConnectionRoleObjectTypeCode>
+          <connectionroleobjecttypecodeid>{4240221c-d39c-f111-b8dd-70a8a57f0bb9}</connectionroleobjecttypecodeid>
+          <associatedobjecttypecode>account</associatedobjecttypecode>
+        </ConnectionRoleObjectTypeCode>
+        <ConnectionRoleObjectTypeCode>
+          <connectionroleobjecttypecodeid>{4440221c-d39c-f111-b8dd-70a8a57f0bb9}</connectionroleobjecttypecodeid>
+          <associatedobjecttypecode>ceh_event</associatedobjecttypecode>
+        </ConnectionRoleObjectTypeCode>
+      </ConnectionRoleObjectTypeCodes>
+    </ConnectionRole>
+  </ConnectionRoles>
+</ConnectionRoles>

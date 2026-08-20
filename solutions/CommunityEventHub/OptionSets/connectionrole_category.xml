@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="connectionrole_category" localizedName="Category" description="Categories for connection roles." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <displaynames>
+    <displayname description="Category" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Categories for connection roles." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="1" IsHidden="0">
+      <labels>
+        <label description="Business" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="2" IsHidden="0">
+      <labels>
+        <label description="Family" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="3" IsHidden="0">
+      <labels>
+        <label description="Social" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="4" IsHidden="0">
+      <labels>
+        <label description="Sales" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="5" IsHidden="0">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="1000" IsHidden="0">
+      <labels>
+        <label description="Stakeholder" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="1001" IsHidden="0">
+      <labels>
+        <label description="Sales Team" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="1002" IsHidden="0">
+      <labels>
+        <label description="Service" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="765980001" IsHidden="0">
+      <labels>
+        <label description="Community Event Hub" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

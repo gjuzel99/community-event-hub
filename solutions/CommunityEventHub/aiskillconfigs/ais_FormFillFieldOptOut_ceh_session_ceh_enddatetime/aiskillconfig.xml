@@ -1,0 +1,15 @@
+<aiskillconfig uniquename="ais_FormFillFieldOptOut_ceh_session_ceh_enddatetime">
+  <aiskill>FormFillFieldOptOut</aiskill>
+  <attribute>
+    <entityid.logicalname>ceh_session</entityid.logicalname>
+    <logicalname>ceh_enddatetime</logicalname>
+  </attribute>
+  <description>ceh_session - End Date/Time Form fill opt out</description>
+  <entity>
+    <logicalname>ceh_session</logicalname>
+  </entity>
+  <iscustomizable>1</iscustomizable>
+  <scope>1</scope>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</aiskillconfig>
