@@ -6,7 +6,7 @@ The project is being built publicly through a series of live streams.
 
 ## Current Status
 
-🚧 Dataverse foundation
+🚧 Business logic architecture
 
 Episode 1 established the initial project foundation:
 
@@ -15,19 +15,29 @@ Episode 1 established the initial project foundation:
 - engineering guidelines;
 - project roadmap.
 
-Episode 2 will move into Dataverse and start building the first real project foundation.
+Episode 2 created the first Dataverse foundation:
 
-The focus will be on:
+- Community Event Hub solution and publisher;
+- initial solution and repository structure;
+- reuse of standard Dataverse tables such as Account and Contact;
+- reuse of Activities such as Appointments, Emails, Tasks and Phone Calls;
+- Connections and Connection Roles for flexible relationships;
+- initial Event and Session custom tables;
+- first version of the Community Event Hub data model;
+- unpacked solution source stored in GitHub.
 
-- creating the Community Event Hub solution and publisher;
-- defining the initial solution and repository structure;
-- understanding standard Dataverse tables before creating custom ones;
-- reusing Account and Contact where they fit the domain;
-- using Activities such as Appointments, Emails, Tasks and Phone Calls;
-- using Connections and Connection Roles for flexible relationships;
-- deciding when a Choice is enough and when a custom table is needed;
-- creating the initial Event and Session tables;
-- documenting the first Community Event Hub data model.
+Episode 3 will focus on deciding where business logic should live.
+
+We will compare:
+
+- Dataverse configuration;
+- Business Rules;
+- TypeScript and JavaScript;
+- C# plugins;
+- Custom APIs;
+- Power Automate.
+
+The goal is to create a practical business-logic strategy before implementing more custom logic.
 
 ## First Episodes
 
@@ -76,11 +86,19 @@ The initial project will not:
 📅 20 August 2026  
 🔴 YouTube: https://www.youtube.com/live/H071iJ2TZLs
 
+### Episode 3
+
+**Plugin, JavaScript or Power Automate? Designing Business Logic That Scales | Community Event Hub #3**
+
+📅 27 August 2026  
+🔴 YouTube: https://www.youtube.com/live/U3nxJQlnH8A
+
 ## Project Documentation
 
 - [Architecture](docs/architecture.md)
 - [Engineering](docs/engineering.md)
 - [Data Model](docs/data-model.md)
+- [Business Logic](docs/business-logic.md)
 - [Roadmap](ROADMAP.md)
 
 ## License
